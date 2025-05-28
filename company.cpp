@@ -49,11 +49,11 @@ int main() {
     
     double finalPrice = price;
     
-    if (coupon == "WELCOME10") {
+    if (coupon == "welcome") {
         finalPrice = welcomeDiscount(price);
         std::cout << "Applied WELCOME10 discount!" << std::endl;
     } 
-    else if (coupon == "LOYALTY25") {
+    else if (coupon == "loyal") {
         finalPrice = loyaltyDiscount(price);
         std::cout << "Applied LOYALTY25 discount!"  << std::endl;
     }
