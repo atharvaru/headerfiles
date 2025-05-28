@@ -9,7 +9,7 @@
 
 int main() {
     
-    std::cout << "Comquest"<<std::endl;
+    std::cout << "Tafa Store"<<std::endl;
     
    
     std::string name, address, product;
